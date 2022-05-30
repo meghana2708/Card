@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+        .parent{
+            height: 100%;
+            padding: 20px;
+            background: hsla(211, 66%, 87%, 1);
+            background: linear-gradient(90deg, hsla(211, 66%, 87%, 1) 0%,  hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+            background: -moz-linear-gradient(90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+            background: -webkit-linear-gradient(90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C9DEF4", endColorstr="#F5CCD4", GradientType=1 );  
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        img{
+            width:100%;
+            border-radius: 25px;
+            max-height: 200px;
+        }
+        section.parent div{
+            min-height: 450px;
+            background-color:#caefd7;
+            width: 300px;
+            border-radius: 25px;
+            border:1px grey solid;
+            margin: 20px; 
+            box-shadow: -2px -2px gray;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        section.parent div:hover{
+            transform:scale3d(0.9,0.9,0.9);  
+          
+        }
+        p {
+            margin: 10px; 
+            
+        }
+        .hi{
+            margin: 10px;
+        }
+        button{
+            background-color: lightpink;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            position: absolute;
+            bottom: -20px;  
+            
+        }
+        button:hover{
+            background-color:#abc9e9 ;
+            transition: 0.3s ease-in-out  ;
+            transform:scale3d(1.2,1.2,1.2);
+            cursor: pointer;
+        }
+        h1{
+            color: steelblue;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Some of the beautiful Countries...</h1>
+    <section class = 'parent'>
+        
+        <div>
+            <img src="https://source.unsplash.com/R5scocnOOdM" alt="Paris">
+            <h1 class="hi">Paris</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/_WuPjE-MPHo" alt="Paris">
+            <h1>India</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/eb8dmXNOGP4" alt="Paris">
+            <h1>Switzerland</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/LtnPejWDSAY" alt="Paris">
+            <h1>Norway</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/lqWf-yoQztI" alt="Paris">
+            <h1>Sweden</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/smUAKwMT8XA" alt="Paris">
+            <h1>Sri Lanka</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/n--CMLApjfI" alt="Paris">
+            <h1>Japan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/iXqTqC-f6jI" alt="Paris">
+            <h1>England</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugit accusamus consectetur corporis nisi cupiditate voluptate nesciunt quam dicta quae sapiente enim, repellendus saepe quibusdam architecto temporibus asperiores eos laborum.</p>
+            <button>Visit Site</button>
+        </div>
+        
+    </section>
+</body>
+</html>
